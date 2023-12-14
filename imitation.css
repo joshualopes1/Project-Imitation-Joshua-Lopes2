@@ -1,0 +1,58 @@
+main {
+  width:300px;
+  height:450;
+  margin:auto;
+  border: 2px solid black;
+  background-color: #f9f6f6;
+}
+
+body {
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@800&family=Mukta:wght@600&family=Signika+Negative&display=swap');
+}
+ol {
+  counter-reset: track;
+}
+.left {
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'Signika Negative', sans-serif;
+  font-weight: bolder;
+  font-size: 7px;
+}
+.columns {
+display: inline-block;
+  vertical-align:middle; 
+  display:flex;
+  align-items:flex start;
+  
+}
+.list {
+    display: inline-block;
+    vertical-align: middle; 
+    display: flex; align-items: flex-start;
+
+}
+img {
+  max-width:100%;
+}
+li {
+   right-align 
+  text-align: right; 
+}
+
+.right {
+  display:flex;
+  justify-content: flex-start;
+  flex-direction:column;
+  align-items:flex-end;
+  
+}
+.left {
+  white-space:nowrap;
+  width: 120px;
+}
+
+.rightside {
+font-size: 14px;
+  font-weight: bolder;
+}
